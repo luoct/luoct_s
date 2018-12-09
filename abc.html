@@ -1,5 +1,100 @@
-<div>
-    <h1>123</h1>
-    <h2>456</h2>
-    <h3>789</h3>
-</div>
+
+                    <div class="pageTitle">
+                        <div class="tixing pull-left">猪只资料</div>
+                        <div class="pull-left mt20 ml20"><small>记录数：<em class="text-danger">930</em> 在场猪只0头 其中 后备公猪0头
+                                种公猪0头
+                                后备母猪0头 配种母猪0头 失配母猪0头 哺乳母猪0头 断奶母猪0</small></div>
+                        <div class="xzbb">
+                            <div class="pull-right ml20 mt20">
+                                <i class="glyphicon glyphicon-question-sign"></i>
+                                <a class="">使用帮助</a>
+                            </div>
+                            <div class="pull-right mt20">
+                                <i class="glyphicon glyphicon-download-alt"></i>
+                                <a class="">下载报表</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="query bg-info">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label>耳号：</label>
+                                <select class="form-control">
+                                    <option value="">不限</option>
+                                    <option value="1" selected="">有耳号</option>
+                                    <option value="0">无耳号</option>
+                                </select>
+                                <input type="text" class="form-control" placeholder="耳号">
+                            </div>
+                            <div class="form-group">
+                                <label>性别：</label>
+                                <select class="form-control">
+                                    <option value="">不限</option>
+                                    <option value="1" selected="">公</option>
+                                    <option value="0">母</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="carrier0IDs">定位：</label>
+                                <input type="hidden">
+                                <a title="点击选择猪舍">无</a>
+                            </div>
+                            <div class="form-group">
+                                <label>状态：</label>
+                                <select class="form-control">
+                                    <option value="">不限</option>
+                                    <option value="1" selected="">种猪</option>
+                                    <option value="0">配种</option>
+                                    <option value="30">妊娠</option>
+                                    <option value="5">断奶</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-primary">查询</button>
+                            <a>
+                                详细查询>></i>
+                            </a>
+                        </form>
+                    </div>
+
+                    <div class="panel table-responsive" id="Mytable" style="max-height: 659px; width: 100%;">
+                        <table class="table table-striped tabtable table-hover">
+                            <thead>
+                                <tr>
+                                    <th>耳号</th>
+                                    <th>性别</th>
+                                    <th>状态</th>
+                                    <th>是否在场</th>
+                                    <th>时间</th>
+                                    <th>日龄</th>
+                                    <th>品种</th>
+                                    <th>舍号</th>
+                                    <th>左奶头</th>
+                                    <th>右奶头</th>
+                                    <th>进场类型</th>
+                                    <th>进场时间</th>
+                                    <th>离场类型</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>LY7911</td>
+                                    <td>母</td>
+                                    <td>后备</td>
+                                    <td>离场</td>
+                                    <td>2018-03-03</td>
+                                    <td>281</td>
+                                    <td>土猪</td>
+                                    <td>1号舍</td>
+
+                                    <td>8</td>
+                                    <td>8</td>
+                                    <td>出生</td>
+                                    <td>2018-10-19</td>
+                                    <td>赠出</td>
+
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
